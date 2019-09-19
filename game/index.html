@@ -1,0 +1,61 @@
+<!doctype html>
+<!--
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//
+//	A "Rock, Paper, Scissors" Game Program
+//	Author: Jeremy C. Southgate
+//	E-Mail: jes4532@g.harvard.edu
+//
+////////////////////////////////////////////////////////////////////////////////
+-->
+<html lang='en-us'>
+<head>
+
+	<!-- HTML Elements -->
+	<title>Rock, Paper, Scissors</title>
+	<meta charset='utf-8'>
+
+	<!-- Stylesheet -->
+	<link type="text/css" rel="stylesheet" href="./index.css" />
+
+	<!-- Script -->
+	<script src="./index.js"></script>
+
+</head>
+<body>
+
+	<!-- App Container -->
+	<main>
+
+		<!-- Title -->
+		<h1 id='title'>The "Rock, Paper, Scissors" Game</h1>
+
+		<!-- Rules -->
+		<i id='rules'>Rules: Pick one. Rock beats Scissors. Scissors beats Paper. Paper beats Rock.</i>
+
+		<!-- Who Played What Option & Game Outcome -->
+		<div id='plays'>
+			<div id='user'></div>
+			<div id='computer'></div>
+			<div id='outcome'></div>
+		</div>
+
+		<!-- Options for the User to choose -->
+		<div>
+			<button id='1'>Rock</button>
+			<button id='2'>Paper</button>
+			<button id='3'>Scissors</button>
+		</div>
+
+		<!-- Score Tally -->
+		<div id='tally'>
+			<div id='wins'></div>
+			<div id='losses'></div>
+			<div id='ties'></div>
+		</div>
+
+	</main>
+
+</body>
+</html>

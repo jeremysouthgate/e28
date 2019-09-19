@@ -1,0 +1,102 @@
+/*
+///////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//
+//	A "Rock, Paper, Scissors" Game Program
+//	Author: Jeremy C. Southgate
+//	E-Mail: jes4532@g.harvard.edu
+//
+////////////////////////////////////////////////////////////////////////////////
+*/
+
+/* Remove Browser Default Padding */
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Body */
+body
+{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Container */
+main
+{
+    width: calc(800px - 100px);
+    margin: 0 auto 0 auto;
+    background: #EAEAEA;
+    font-family: helvetica;
+    padding: 50px;
+}
+
+    /* Title */
+    #title
+    {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    /* Rules */
+    #rules
+    {
+
+        text-align: center;
+        margin: 25px 0;
+        width: 100%;
+        display: block;
+    }
+
+    /* Who Played What */
+    #plays
+    {
+        width: 100%;
+    }
+        #user, #computer
+        {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            float: left;
+        }
+        #outcome
+        {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    /* Options for the User */
+    button
+    {
+        width: calc(33.3%);
+        height: 50px;
+        display: inline-block;
+        float: left;
+        cursor: pointer;
+        margin-top: 25px;
+        background: #EAEAEA;
+        font-size: 1em;
+    }
+        button:hover
+        {
+            background: #EEEEEE;
+        }
+
+    /* Score Tally */
+    #tally
+    {
+        width: 100%;
+        float: left;
+        margin-top: 25px;
+    }

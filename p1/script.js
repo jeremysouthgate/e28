@@ -99,9 +99,6 @@ let app = new Vue({
             if (note_id > 0) note_id = "+" + note_id;
             this.note_img = "./notes/" + note_id + ".png";
 
-            // Focus on Answer Field
-            //this.answer.focus().select();
-            document.querySelector("#answer").style.background = "pink";
         }
     }
 

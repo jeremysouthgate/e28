@@ -1,0 +1,90 @@
+<!doctype html>
+<!--
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//
+//  HES DGMD E-28 Vue.js
+//  Project 1
+//
+//  By: Jeremy C. Southgate (jes4532@g.harvard.edu)
+//
+////////////////////////////////////////////////////////////////////////////////
+-->
+<html lang='en-us'>
+<head>
+
+    <!-- HTML Required -->
+    <title>Music Sight-Reading</title>
+    <meta charset="utf-8" />
+
+    <!-- Vue.js -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js" defer></script>
+
+    <!-- Script -->
+    <script src="./script.js" defer></script>
+
+    <!-- Style -->
+    <link rel='stylesheet' href='./index.css'/>
+
+</head>
+<body>
+
+    <!-- Vue App Instance -->
+    <main v-cloak>
+
+        <!-- Title -->
+        <a href=''><h1>Practice Music Sight Reading</h1></a>
+
+
+        <!-- Interface for a given Clef -->
+        <div v-if="clef">
+
+            <!-- Clef Image -->
+            <div id='clef_img' v-if="clef == 'G'">
+                &#119070;
+            </div>
+            <div id='clef_img' v-else-if="clef == 'F'">
+                &#119074;
+            </div>
+            <div id='clef_img' v-else-if="clef == 'C'">
+                &#119073;
+            </div>
+
+
+            <!-- Note Image -->
+            <img id='note_img' :src="note_img" alt="A Musical Note"/>
+
+
+            <!-- Score -->
+            <div id='score'>
+                <b v-bind:class="{is_correct : is_correct}">Correct </b><span>{{ correct }}</span><br />
+                <b v-bind:class="{is_incorrect : is_incorrect}">Incorrect </b><span>{{ incorrect }}</span><br />
+                <b>Average</b><span>{{ average }}</span>
+            </div>
+
+
+            <!-- Answer Field -->
+            <div id='answer_field'>
+                <label>Type the Note Letter: </label>
+                <input id='answer' type='text' v-model="answer" maxlength="1" @keyup="check_answer"/>
+            </div>
+
+
+            <!-- Skip Button -->
+            <button id='skip' @click="new_flashcard">Skip</button>
+
+        </div>
+
+
+        <!-- Clef Picker -->
+        <div>
+            <label>Pick a Clef: </label>
+            <button class='clef_selector' @click="clef_selected('G')">G Clef</button>
+            <button class='clef_selector' @click="clef_selected('F')">F Clef</button>
+            <button class='clef_selector' @click="clef_selected('C')">C Clef</button>
+        </div>
+
+    </main>
+
+</body>
+</html>

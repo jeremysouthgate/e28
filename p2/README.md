@@ -16,4 +16,4 @@ n/a
 
 ## Notes for instructor
 
-n/a
+The music theory "cheat sheet" is now in the "answer-field" component state. ;)

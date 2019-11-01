@@ -1,0 +1,108 @@
+/*
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//
+//  HES DGMD E-28 Vue.js
+//  Project 2
+//
+//  By: Jeremy C. Southgate (jes4532@g.harvard.edu)
+//
+////////////////////////////////////////////////////////////////////////////////
+//  STYLESHEET
+*/
+
+/*
+ *  DEFAULTS
+ */
+
+/* Remove Browser Default Styling */
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* Vue Cloak */
+[v-cloak]
+{
+    display: none;
+}
+
+
+/*
+ *  GENERAL STYLE
+ */
+
+body
+{
+        width: 100%;
+        height: 100vh;
+        min-height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+    a
+    {
+        text-decoration: none;
+    }
+    label
+    {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-bottom: 10px;
+        font-style: italic;
+    }
+    button
+    {
+        background: #EAEAEA;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+        button:hover
+        {
+            background: #BBBBBB;
+        }
+
+
+/*
+ *  INTERFACE
+ */
+
+/* App */
+main
+{
+        width: 500px;
+        padding: 25px;
+        min-height: 500px;
+        margin: 0 auto;
+}
+    /* Title */
+    h1
+    {
+        text-align: center;
+        color: #BBBBBB;
+    }
+
+    /* Skip Button */
+    #skip
+    {
+        width: 100%;
+        height: 50px;
+        border: none;
+        margin-bottom: 25px;
+        font-size: 1em;
+    }
+
+    /* Clef Selector */
+    .clef_selector
+    {
+        width: calc(33.3% - 10px);
+        margin: 0 5px;
+        height: 50px;
+        display: block;
+        position: relative;
+        float: left;
+        border: none
+    }

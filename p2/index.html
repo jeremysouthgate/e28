@@ -1,0 +1,83 @@
+<!doctype html>
+<!--
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//
+//  HES DGMD E-28 Vue.js
+//  Project 2
+//
+//  By: Jeremy C. Southgate (jes4532@g.harvard.edu)
+//
+////////////////////////////////////////////////////////////////////////////////
+-->
+<html lang='en-us'>
+<head>
+
+    <!-- HTML Required -->
+    <title>Music Sight-Reading</title>
+    <meta charset="utf-8" />
+
+    <!-- Script -->
+    <script src='/js/script.js' defer></script>
+
+    <!-- Style -->
+    <link rel='stylesheet' href='./index.css'/>
+
+</head>
+<body>
+
+    <!-- Vue App Instance -->
+    <main v-cloak>
+
+        <!-- Title -->
+        <a href=''><h1>Practice Music Sight Reading</h1></a>
+
+
+        <!-- Interface for a given Clef -->
+        <div v-if="clef">
+
+            <!-- Clef Image -->
+            <clef-img
+                :clef_symbol="clef_symbol">
+            </clef-img>
+
+
+            <!-- Note Image -->
+            <note-img
+                :note_img="note_img">
+            </note-img>
+
+
+            <!-- Scores -->
+            <attempt-scores
+                :correct="correct"
+                :is_correct="is_correct"
+                :incorrect="incorrect"
+                :is_incorrect="is_incorrect"
+                :average="average">
+            </attempt-scores>
+
+
+            <!-- Answer Field -->
+            <answer-field @answer-checked="record_answer($event)"
+                :note_name="note_name">
+            </answer-field>
+
+            <!-- Skip Button -->
+            <button id='skip' @click="new_flashcard">Skip</button>
+
+        </div>
+
+
+        <!-- Clef Picker -->
+        <div>
+            <label>Pick a Clef: </label>
+            <button class='clef_selector' @click="clef_selected('G')">G Clef</button>
+            <button class='clef_selector' @click="clef_selected('F')">F Clef</button>
+            <button class='clef_selector' @click="clef_selected('C')">C Clef</button>
+        </div>
+
+    </main>
+
+</body>
+</html>

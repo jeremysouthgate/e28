@@ -17,9 +17,6 @@ header {
 #logo {
     /* Actual width is 636; displaying at half-size for retina screens */
     width: 318px;
-    display: block;
-    position: relative;
-    margin: 0 auto;
 }
 
 

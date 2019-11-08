@@ -13,7 +13,7 @@ export default {
     components: { ShowFeatured },
     data: function() {
         return {
-
+            featuredCategory: "snacks"
         }
     }
 }

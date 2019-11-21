@@ -1,6 +1,6 @@
 {
     "music": {
-        "collections": [
+        "collections": {
             {
                 "18a67fb5": {
                     "Title": "Lydia",
@@ -8,6 +8,6 @@
                     "Audio": "lydia.mp3"
                 }
             }
-        ]
+        }
     }
 }

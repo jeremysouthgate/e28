@@ -15,10 +15,6 @@
 </template>
 
 <script>
-
-// Axios Fetch API
-const axios = require('axios');
-
 // Child Components
 import NavBar from './components/NavBar.vue'
 
@@ -31,12 +27,6 @@ export default {
         return {
 
         }
-    },
-    mounted: function() {
-        axios.get("https://my-json-server.typicode.com/jeremysouthgate/e28/collections")
-        .then(function(response){
-            console.log(response);
-        });
     }
 }
 </script>

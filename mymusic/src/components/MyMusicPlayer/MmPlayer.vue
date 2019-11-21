@@ -34,6 +34,9 @@
 
 <script>
 
+// Axios Fetch API
+const axios = require('axios');
+
 // Moment.js (time-formatting)
 let moment = require("moment");
 var momentDurationFormatSetup = require("moment-duration-format");
@@ -134,6 +137,14 @@ export default {
         let current_time = localStorage.getItem('current_time');
         if (current_time)
             this.media_element.currentTime = current_time;
+
+
+
+
+        axios.get("https://my-json-server.typicode.com/jeremysouthgate/e28/music")
+        .then(function(response){
+            console.log(response);
+        });
 
     }
 }

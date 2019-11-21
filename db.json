@@ -1,17 +1,13 @@
 {
     "music": {
         "collections": {
-            "18a67fb5": {
-                "Collection Name": "Lydia",
-                "Collection Type": "Single",
-                "Collection Tracks": {
-                    "1": {
-                        "Track Title": "Lydia",
-                        "Track Artwork": "lydia.png",
-                        "Track Audio": "lydia.mp3"
-                    }
+            "18a67fb5": [
+                "1": {
+                    "Title": "Lydia1",
+                    "Artwork": "lydia.png",
+                    "Audio": "lydia.mp3"
                 }
-            }
+            ]
         }
     }
 }

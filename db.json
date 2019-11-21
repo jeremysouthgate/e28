@@ -1,11 +1,9 @@
 {
     "music": {
-        {
-            "18a67fb5": {
-                "Title": "Lydia",
-                "Artwork": "lydia.png",
-                "Audio": "lydia.mp3"
-            }
+        "18a67fb5": {
+            "Title": "Lydia",
+            "Artwork": "lydia.png",
+            "Audio": "lydia.mp3"
         }
     }
 }

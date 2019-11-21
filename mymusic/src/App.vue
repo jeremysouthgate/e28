@@ -33,7 +33,7 @@ export default {
         }
     },
     mounted: function() {
-        axios.get("https://my-json-server.typicode.com/jeremysouthgate/mymusic/collections")
+        axios.get("https://my-json-server.typicode.com/jeremysouthgate/e28/collections")
         .then(function(response){
             console.log(response);
         });

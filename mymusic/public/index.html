@@ -1,0 +1,55 @@
+<!doctype html>
+<!--
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//
+//  MyMusic™ Player
+//  © 2019 Jeremy C. Southgate. All rights reserved.
+//  jeremy@jeremysouthgate.com
+//
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+-->
+<html lang="en">
+<head>
+
+    <!-- HTML Req. -->
+    <meta charset="utf-8">
+    <title>MyMusic™ Player</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="<%= BASE_URL %>favicon.png">
+
+    <!-- Viewport -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <!-- Remove Browser Default Margin/Padding & Set SPA App Size -->
+    <style>
+        * { margin: 0; padding: 0; }
+        #app
+        {
+            height: calc(100vh + 110px);
+            overflow-y: hidden;
+        }
+    </style>
+
+    <!-- Adobe Fonts -->
+    <link rel="stylesheet" href="https://use.typekit.net/mpn7qcp.css">
+
+</head>
+<body>
+
+    <!-- NoScript Warning -->
+    <noscript>
+        <strong>
+            Sorry, MyMusic doesn't work properly without JavaScript enabled.
+            Please enable it to continue.
+        </strong>
+    </noscript>
+
+    <!-- Main App -->
+    <div id='app'></div>
+
+</body>
+</html>

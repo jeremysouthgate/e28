@@ -2,7 +2,7 @@
     "collections": [
         "Lydia": {
             "Track Name" : "Lydia",
-            "Track Audiofile": "lydia.mp3"
+            "Track Audiofile": "lydia.mp3",
             "Track Artwork": "lydia.png"
         }
     ]

@@ -1,14 +1,14 @@
 {
     "collections": {
         "1a84f9cd": {
-            "xxx": "Which one is correct team name in NBA?",
-            "xxxx": [
+            "1": "Which one is correct team name in NBA?",
+            "2": [
                 "New York Bulls",
                 "Los Angeles Kings",
                 "Golden State Warriros",
                 "Huston Rocket"
             ],
-            "xxxxx": "Huston Rocket"
+            "3": "Huston Rocket"
         }
     }
 }

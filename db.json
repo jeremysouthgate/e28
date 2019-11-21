@@ -1,6 +1,7 @@
 [
     {
-        "18a67fb5": {
+        "id": "18a67fb5",
+        "collection": {
             "title": "Lydia",
             "artwork": "lydia.png",
             "audio": "lydia.mp3"

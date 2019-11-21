@@ -1,9 +1,9 @@
-{
-    "collections": {
+[
+    {
         "18a67fb5": {
             "title": "Lydia",
             "artwork": "lydia.png",
             "audio": "lydia.mp3"
         }
     }
-}
+]

@@ -9,7 +9,9 @@
 
 <template>
     <div id='player' class='noselect'>
-
+        <div id='response'>
+            {{ response }}
+        </div>
         <div id='artwork'>
             <img src='../../assets/MEDIA/lydia.png'/>
         </div>
@@ -53,7 +55,7 @@ export default {
     },
     data: function() {
         return {
-
+            response: 1,
             media_element: null,
             duration: null,
             time_elapsed: "00:00",
@@ -141,9 +143,9 @@ export default {
 
 
 
-        axios.get("https://my-json-server.typicode.com/jeremysouthgate/e28/music")
+        axios.get("https://my-json-server.typicode.com/jeremysouthgate/e28/collections/18a67fb5")
         .then(function(response){
-            console.log(response);
+            alert(response.data);
         });
 
     }
@@ -157,7 +159,13 @@ export default {
     height: 100%;
     position: relative;
 }
-
+    #response
+    {
+        width: 500px;
+        height: 500px;
+        position: absolute;
+        z-index: 1000;
+    }
     /* Audio */
     video
     {

@@ -2,10 +2,12 @@
     "music": {
         "collections": {
             "18a67fb5": {
+                "Collection Name": "Lydia",
+                "Collection Type": "Single",
                 "1": {
-                    "Title": "Lydia",
-                    "Artwork": "lydia.png",
-                    "Audio": "lydia.mp3"
+                    "Track Title": "Lydia",
+                    "Track Artwork": "lydia.png",
+                    "Track Audio": "lydia.mp3"
                 }
             }
         }

@@ -1,6 +1,11 @@
 {
     "collections": {
-        "18a67fb5": [1, 2],
-        "fab8c174": [5, 6]
+        "18a67fb5": [
+            {
+                "title": "Lydia",
+                "artwork": "lydia.png",
+                "audio": "lydia.mp3"
+            }
+        ]
     }
 }

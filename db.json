@@ -1,9 +1,10 @@
 {
     "collections": {
-        "Lydia": {
-            "Track Name" : "Lydia",
-            "Track Audiofile": "lydia.mp3",
-            "Track Artwork": "lydia.png"
-        }
+		"Lydia": {
+            "title": "Lydia",
+			"artist": "Jeremy Southgate",
+            "audiofile": "lydia.mp3",
+            "artwork": "lydia.png"
+        },
     }
 }

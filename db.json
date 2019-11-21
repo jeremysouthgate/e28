@@ -1,16 +1,14 @@
 {
-    "music": {
-        "collections": {
-            "18a67fb5": {
-                "title": "Lydia",
-                "artwork": "lydia.png",
-                "audio": "lydia.mp3"
-            },
-            "fab8c174": {
-                "title": "Lydia",
-                "artwork": "lydia.png",
-                "audio": "lydia.mp3"
-            }
+    "collections": {
+        "18a67fb5": {
+            "title": "Lydia",
+            "artwork": "lydia.png",
+            "audio": "lydia.mp3"
+        },
+        "fab8c174": {
+            "title": "Lydia",
+            "artwork": "lydia.png",
+            "audio": "lydia.mp3"
         }
     }
 }

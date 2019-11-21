@@ -1,13 +1,13 @@
 {
     "music": {
         "collections": {
-            "18a67fb5": [
+            "18a67fb5": {
                 "1": {
                     "Title": "Lydia",
                     "Artwork": "lydia.png",
                     "Audio": "lydia.mp3"
                 }
-            ]
+            }
         }
     }
 }

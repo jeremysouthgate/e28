@@ -2,9 +2,14 @@
     "music": {
         "collections": {
             "18a67fb5": {
-                "Title": "Lydia",
-                "Artwork": "lydia.png",
-                "Audio": "lydia.mp3"
+                "title": "Lydia",
+                "artwork": "lydia.png",
+                "audio": "lydia.mp3"
+            },
+            "fab8c174": {
+                "title": "Lydia",
+                "artwork": "lydia.png",
+                "audio": "lydia.mp3"
             }
         }
     }

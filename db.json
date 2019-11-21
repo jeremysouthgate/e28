@@ -1,14 +1,6 @@
 {
     "collections": {
-        "18a67fb5": {
-            "title": "Lydia",
-            "artwork": "lydia.png",
-            "audio": "lydia.mp3"
-        },
-        "fab8c174": {
-            "title": "Lydia",
-            "artwork": "lydia.png",
-            "audio": "lydia.mp3"
-        }
+        "18a67fb5": [1, 2],
+        "fab8c174": [3, 4]
     }
 }

@@ -1,12 +1,10 @@
 [
-    "music": [
-        {
-            "id": 1,
-            "collection": {
-                "title": "Lydia",
-                "artwork": "lydia.png",
-                "audio": "lydia.mp3"
-            }
+    "music": {
+        "id": 1,
+        "collection": {
+            "title": "Lydia",
+            "artwork": "lydia.png",
+            "audio": "lydia.mp3"
         }
-    ]
+    }
 ]

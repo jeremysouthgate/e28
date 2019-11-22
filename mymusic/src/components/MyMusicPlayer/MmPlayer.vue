@@ -10,9 +10,7 @@
 <template>
 
     <div id='player' class='noselect'>
-        <div id='response'>
-            {{ response }}
-        </div>
+
         <div id='artwork'>
             <img src='../../assets/MEDIA/lydia.png'/>
         </div>
@@ -39,9 +37,6 @@
 
 <script>
 
-// Axios Fetch API
-const axios = require('axios');
-
 // Moment.js (time-formatting)
 let moment = require("moment");
 var momentDurationFormatSetup = require("moment-duration-format");
@@ -58,13 +53,11 @@ export default {
     },
     data: function() {
         return {
-            response: 1,
             media_element: null,
             duration: null,
             time_elapsed: "00:00",
             mute_button: "Mute",
             playpause_button: "Play"
-
         }
     },
     methods: {
@@ -142,11 +135,6 @@ export default {
         let current_time = localStorage.getItem('current_time');
         if (current_time)
             this.media_element.currentTime = current_time;
-
-        axios.get("https://my-json-server.typicode.com/jeremysouthgate/e28/collections/18a67fb5")
-        .then(function(response){
-            alert(response.data);
-        });
 
     }
 }

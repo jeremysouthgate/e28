@@ -24,6 +24,7 @@
 
 
 <script>
+
 export default {
     name: 'NavBar',
     data: function() {
@@ -32,13 +33,12 @@ export default {
         }
     },
     methods: {
-
         scroll_top: function() {
             window.scrollTo(0, 0);
         }
-
     }
 }
+
 </script>
 
 
@@ -82,5 +82,5 @@ export default {
             top: 15px;
             right: 15px;
         }
-        
+
 </style>

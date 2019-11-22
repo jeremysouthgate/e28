@@ -31,9 +31,6 @@ export default {
             response: 123
         }
     },
-    methods: {
-
-    },
     mounted: function() {
 
         axios
@@ -67,5 +64,5 @@ export default {
     {
         font-size: 20px;
     }
-    
+
 </style>

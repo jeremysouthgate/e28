@@ -10,6 +10,12 @@
 <https://www.w3schools.com/tags/ref_av_dom.asp>
 
 ## Notes for instructor
++ 3 Pages: Home, Discover, Play
+
++ LocalStorage: stores current_time of song so that a refresh begins at the same position.
+
++ API: the Discover/Collections Page draws the collections from the mock-DB.
+
 + Right now, only one song is played. P4 will implement "playing through" an album or playlist.
 
 + I will also break down these main components into futher sub-components -- code is a little too messy

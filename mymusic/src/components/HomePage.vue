@@ -26,15 +26,7 @@
 <script>
 
 export default {
-    name: 'HomePage',
-    data: function() {
-        return {
-
-        }
-    },
-    methods: {
-
-    }
+    name: 'HomePage'
 }
 
 </script>
@@ -76,5 +68,5 @@ export default {
         font-size: 25px;
         font-weight: bold;
     }
-    
+
 </style>

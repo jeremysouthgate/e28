@@ -8,6 +8,7 @@
 //  Media Player Component
 
 <template>
+
     <div id='player' class='noselect'>
         <div id='response'>
             {{ response }}
@@ -32,7 +33,9 @@
         </video>
 
     </div>
+
 </template>
+
 
 <script>
 
@@ -149,7 +152,9 @@ export default {
 }
 </script>
 
+
 <style scoped>
+
 #player
 {
     width: 100%;
@@ -241,4 +246,5 @@ export default {
                 z-index: 100;
                 margin: 2px;
             }
+
 </style>

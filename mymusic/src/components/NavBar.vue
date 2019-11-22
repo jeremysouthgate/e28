@@ -8,6 +8,7 @@
 //  NavBar Component
 
 <template>
+
     <footer>
         <h1>MYMUSIC™ Player</h1>
         <nav>
@@ -18,7 +19,9 @@
         <span id='legal'>Site &copy; &trade; J.C. Southgate.<br/>All rights reserved.</span>
         <div id='brand'></div>
     </footer>
+
 </template>
+
 
 <script>
 export default {
@@ -38,7 +41,9 @@ export default {
 }
 </script>
 
+
 <style scoped>
+
     footer
     {
         width: 100%;
@@ -77,4 +82,5 @@ export default {
             top: 15px;
             right: 15px;
         }
+        
 </style>

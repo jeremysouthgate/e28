@@ -8,13 +8,22 @@
 //  App
 
 <template>
+
     <div id='app'>
+
+        <!-- Content -->
         <router-view/>
+
+        <!-- Footer/Nav -->
         <nav-bar/>
+
     </div>
+
 </template>
 
+
 <script>
+
 // Child Components
 import NavBar from './components/NavBar.vue'
 
@@ -22,16 +31,15 @@ export default {
     name: 'app',
     components: {
         NavBar
-    },
-    data: function() {
-        return {
-
-        }
     }
 }
+
 </script>
 
+
 <style>
+
+/* App Container */
 #app
 {
     width: 100%;
@@ -41,6 +49,7 @@ export default {
     top: 0;
 }
 
+/* Global Link Style */
 a
 {
     color: navy;
@@ -52,6 +61,7 @@ a
         text-decoration: underline;
     }
 
+/* Global NoSelect Style */
 .noselect
 {
     -webkit-touch-callout: none; /* iOS Safari */
@@ -62,4 +72,5 @@ a
               user-select: none; /* Non-prefixed version, currently
                                     supported by Chrome, Opera and Firefox */
 }
+
 </style>

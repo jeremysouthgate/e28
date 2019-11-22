@@ -8,6 +8,7 @@
 //  HomePage Component
 
 <template>
+
     <div id='home'>
         <h1 id='title'>MYMUSIC™ Player</h1>
         <h1 id='subtitle'>The Future of Music is Wide Open.</h1>
@@ -18,9 +19,12 @@
         </p>
         <router-link id='start' exact :to='{ name: "Discover" }'>Click Here to Start Playing!</router-link>
     </div>
+
 </template>
 
+
 <script>
+
 export default {
     name: 'HomePage',
     data: function() {
@@ -32,9 +36,12 @@ export default {
 
     }
 }
+
 </script>
 
+
 <style scoped>
+
 #home
 {
     width: 800px;
@@ -69,4 +76,5 @@ export default {
         font-size: 25px;
         font-weight: bold;
     }
+    
 </style>

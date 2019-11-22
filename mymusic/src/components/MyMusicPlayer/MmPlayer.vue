@@ -140,9 +140,6 @@ export default {
         if (current_time)
             this.media_element.currentTime = current_time;
 
-
-
-
         axios.get("https://my-json-server.typicode.com/jeremysouthgate/e28/collections/18a67fb5")
         .then(function(response){
             alert(response.data);

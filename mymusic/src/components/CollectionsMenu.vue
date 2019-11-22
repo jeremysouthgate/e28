@@ -9,11 +9,14 @@
 
 <template>
     <div id='collections'>
-        Hello, World! Collections.
+        <h1>Collections</h1>
     </div>
 </template>
 
 <script>
+// Axios Fetch API
+const axios = require('axios');
+
 export default {
     name: 'CollectionsMenu',
     data: function() {
@@ -22,6 +25,14 @@ export default {
         }
     },
     methods: {
+
+    },
+    mount: function() {
+
+        axios.get("https://my-json-server.typicode.com/jeremysouthgate/e28/music")
+        .then(function(response){
+            alert(response.data);
+        });
 
     }
 }

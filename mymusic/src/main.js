@@ -30,9 +30,9 @@ Vue.use(VueRouter);
 
 // Set Routes
 const routes = [
-    { path: '/', component: HomePage, name: 'home' },
-    { path: '/collections', component: CollectionsMenu, name: 'discover' },
-    { path: '/play', component: MmPlayer, name: 'play' },
+    { path: '/', component: HomePage, name: 'Home' },
+    { path: '/collections', component: CollectionsMenu, name: 'Discover' },
+    { path: '/play', component: MmPlayer, name: 'Play' },
     { path: '/discover', redirect: '/collections'},
     { path: '*', redirect: '/'}
 ]

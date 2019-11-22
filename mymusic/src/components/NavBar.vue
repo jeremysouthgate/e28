@@ -29,7 +29,7 @@ export default {
     name: 'NavBar',
     data: function() {
         return {
-            links: ['home', 'discover', 'play']
+            links: ['Home', 'Discover', 'Play']
         }
     },
     methods: {

@@ -4,6 +4,7 @@
             "id": 1,
             "collection": {
                 "title": "Lydia",
+                "type": "single",
                 "artwork": "lydia.png",
                 "audio": "lydia.mp3"
             }

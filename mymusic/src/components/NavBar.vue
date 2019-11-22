@@ -25,7 +25,7 @@ export default {
     name: 'NavBar',
     data: function() {
         return {
-            links: ['Home', 'Discover', 'Play', '(Terms & Conditions & Privacy Policy)']
+            links: ['Home', 'Discover', 'Play']
         }
     },
     methods: {

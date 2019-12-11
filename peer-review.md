@@ -17,7 +17,11 @@
 
 ### Were there any parts of the interface that you found confusing or unclear?
 
++ Consider making the top-left logo a clickable link to the homepage.
+
 + The current **Home** page could look a little more like a homepage i.e. make the splash image even bigger and feature the logo. Right now the navigation, the description, and the photo of headphones dominate the home view in equal parts. While this is not an interface-focused class, "Single Page Application" sites typically revolve strongly around a *unified*, distinctive interface. It's important to establish what the unifying characteristic is. And it's probably the logo.
+
++ After liking an album, a green message flash-confirms "Your like has been updated!" and then disappears. Feedback about this: (1) Does the message as stated really give useful feedback to the user? A more direct, useful message is "Album added to favorites." In other words, inform the user of the actual *state* of the application rather than just 'something happened.' (2) It's not necessary to have the message disappear? Once an album is added to favorites, any time the user visit's that album's page, it could be useful to know that the album is already favorited. (3) It might (author's design choice) be useful to have a link such as "Go to favorites" within/proximate to this message?
 
 
 ### Are there aspects of the code that you feel were not self-evident and would benefit from comments?
@@ -87,9 +91,5 @@ Here, there is no consistency among App.vue, the lowercase "app.js", and the oth
 
 ### Do you have any additional comments not covered in the above questions?
 
-+ Consider making the top-left logo a clickable link to the homepage.
-
 + On the **albums** page, the heights of the white containter divs
 (having the album artwork and album name) could align with min-height.
-
-+ After liking an album, a green message flash-confirms "Your like has been updated!" and then disappears. Feedback about this: (1) Does the message as stated really give useful feedback to the user? A more direct, useful message is "Album added to favorites." In other words, inform the user of the actual *state* of the application rather than just 'something happened.' (2) It's not necessary to have the message disappear? Once an album is added to favorites, any time the user visit's that album's page, it could be useful to know that the album is already favorited. (3) It might (author's design choice) be useful to have a link such as "Go to favorites" within/proximate to this message?

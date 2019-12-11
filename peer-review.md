@@ -93,5 +93,3 @@ Here, there is no consistency among App.vue, the lowercase "app.js", and the oth
 (having the album artwork and album name) could align with min-height.
 
 + After liking an album, a green message flash-confirms "Your like has been updated!" and then disappears. Feedback about this: (1) Does the message as stated really give useful feedback to the user? A more direct, useful message is "Album added to favorites." In other words, inform the user of the actual *state* of the application rather than just 'something happened.' (2) It's not necessary to have the message disappear? Once an album is added to favorites, any time the user visit's that album's page, it could be useful to know that the album is already favorited. (3) It might (author's design choice) be useful to have a link such as "Go to favorites" within/proximate to this message?
-
-.

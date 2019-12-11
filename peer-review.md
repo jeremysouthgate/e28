@@ -68,7 +68,7 @@ do_something_complicated(x) {
 
 ### Are there any parts of the code that you found interesting or taught you something new?
 
-+ Interestingly, this site globally relies on "UIKit" for its interface (imported in App.vue), so all component style elements are empty. **HomePage.vue** and **LikePage.vue** omit style tags entirely. This explains the window-size scaling issues. But, it seems to break the Vue design pattern for a *self-contained* component: template, script, *and style*. If the style tag has to be empty of custom css, at least add a *comment* with a citation to the framework. Devs need to know that the particular component has a dependency.
++ Interestingly, this site globally relies on "UIKit" for its interface (imported in App.vue), so all component style elements are empty. **HomePage.vue** and **LikePage.vue** omit style tags entirely. This explains the window-size scaling issues. But, it seems to break the Vue design pattern for a self-contained component: template, script, *and style*. If the style tag has to be empty of custom css, at least add a comment with a citation to the framework. Devs need to know that the particular component has a dependency.
 
 
 ### Are there any best practices discussed in course material that you feel were not addressed in the code?
@@ -90,6 +90,6 @@ Here, there is no consistency among App.vue, the lowercase "app.js", and the oth
 + Consider making the top-left logo a clickable link to the homepage.
 
 + On the **albums** page, the heights of the white containter divs
-(having the album artwork and album name) could align.
+(having the album artwork and album name) could align with min-height.
 
-+ After liking an album, a green message flash-confirms "Your like has been updated!" and then disappears. Feedback about this: (1) Does the message as stated really give useful feedback to the user? A more direct, useful message is "Album added to favorites." In other words, inform the user of the actual *state* of the application rather than just 'something happened.' (2) It's not necessary to have the message disappear? Once an album is added to favorites, any time the user visit's that album's page, it could be useful to know that the album is already favorited. (3) It *might* (author's design choice) be useful to have a link such as "Go to favorites" within/proximate to this message?
++ After liking an album, a green message flash-confirms "Your like has been updated!" and then disappears. Feedback about this: (1) Does the message as stated really give useful feedback to the user? A more direct, useful message is "Album added to favorites." In other words, inform the user of the actual *state* of the application rather than just 'something happened.' (2) It's not necessary to have the message disappear? Once an album is added to favorites, any time the user visit's that album's page, it could be useful to know that the album is already favorited. (3) It might (author's design choice) be useful to have a link such as "Go to favorites" within/proximate to this message?

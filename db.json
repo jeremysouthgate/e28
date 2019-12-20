@@ -1,17 +1,19 @@
-[
-    {
-        "title": "Creativity",
-        "artist": "Jeremy Southgate",
-        "type": "single"
-    },
-    {
-        "title": "Summer",
-        "artist": "Jeremy Southgate",
-        "type": "single"
-    },
-    {
-        "title": "Freedom",
-        "artist": "Jeremy Southgate",
-        "type": "single"
-    }
-]
+{
+    "music": [
+        {
+            "title": "Creativity",
+            "artist": "Jeremy Southgate",
+            "type": "single"
+        },
+        {
+            "title": "Summer",
+            "artist": "Jeremy Southgate",
+            "type": "single"
+        },
+        {
+            "title": "Freedom",
+            "artist": "Jeremy Southgate",
+            "type": "single"
+        }
+    ]
+}

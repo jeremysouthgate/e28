@@ -1,8 +1,18 @@
 {
     "music": [
-        {
-            "id": 1,
-            "name": "freedom"
+        "collection": {
+            {
+                "id": 1,
+                "name": "creativity"
+            },
+            {
+                "id": 2,
+                "name": "summer"
+            },
+            {
+                "id": 3,
+                "name": "freedom"
+            }
         }
     ]
 }

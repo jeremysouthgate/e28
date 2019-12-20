@@ -11,7 +11,7 @@
 
     <div id='home'>
         <h1 id='title'>Jeremy C. Southgate</h1>
-        <h1 id='subtitle'>Music Composition Portfolio</h1>
+        <h2 id='subtitle'>Music Composition Portfolio</h2>
         <p id='description'>
             <b>Boston, MA</b>
         </p>

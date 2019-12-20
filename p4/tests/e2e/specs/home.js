@@ -6,8 +6,10 @@ describe('My First Test', () => {
 
         cy.visit('/')
 
-        cy.contains('h1', 'Welcome to Your Vue.js App')
-        
+        cy.contains('h1', 'Jeremy C. Southgate')
+
+        cy.contains('h2', 'Music Composition Portfolio')
+
     })
 
 })

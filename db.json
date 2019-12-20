@@ -1,7 +1,13 @@
 {
     "music": [
-        "title": "Creativity",
-        "title": "Summer",
-        "title": "Freedom"
+        {
+            "title": "Creativity"
+        },
+        {
+            "title": "Summer"
+        },
+        {
+            "title": "Freedom"
+        }
     ]
 }

@@ -5,15 +5,20 @@
 //
 ////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////
-//  CollectionsMenu Component
+//  DiscoverMenu Component
 
 <template>
 
-    <div id='collections'>
-        <h1>Collections</h1>
+    <div id='discover'>
+
+        <h1>Tracklist</h1>
+
         <div v-for="track in response" :key="track.id">
-            <span>{{ track.collection.title }} ({{ track.collection.type }}) by {{ track.collection.artist }}</span>
+
+            <router-link exact :to='{ path: "/play/" + track.collection.title.toLowerCase() }'>{{ track.collection.title }}</router-link>
+
         </div>
+
     </div>
 
 </template>
@@ -25,10 +30,10 @@
 const axios = require('axios');
 
 export default {
-    name: 'CollectionsMenu',
+    name: 'DiscoverMenu',
     data: function() {
         return {
-            response: 123
+            response: null
         }
     },
     mounted: function() {
@@ -48,22 +53,17 @@ export default {
 
 <style scoped>
 
-#collections
+#discover
 {
-    width: 800px;
-    margin: 0 auto;
-    margin-top: 100px;
-    color: navy;
+    background: pink;
+    width: 100%;
+    height: 100%;
+    position: relative;
 }
-    #collections h1
+    #discover > h1
     {
         font-size: 50px;
-        text-align: center;
-        margin-bottom: 50px;
-    }
-    #collections span
-    {
-        font-size: 20px;
+        color: red;
     }
 
 </style>

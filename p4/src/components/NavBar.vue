@@ -10,7 +10,7 @@
 <template>
 
     <footer>
-        <h1>MYMUSIC™ Player</h1>
+        <h1>JCS MUSIC Player</h1>
         <nav>
             <span @click='scroll_top' v-for='link in links' :key='link'>
                 <router-link exact :to='{ name: link }'>{{ link }}</router-link>
@@ -29,7 +29,7 @@ export default {
     name: 'NavBar',
     data: function() {
         return {
-            links: ['Home', 'Discover', 'Play']
+            links: ['Home', 'Discover', 'Play', 'Contact']
         }
     },
     methods: {
@@ -46,17 +46,13 @@ export default {
 
     footer
     {
-        width: 100%;
-        height: 110px;
-        background: #EAEAEA;
-        position: absolute;
-        top: 100vh;
+        /* Set in App.vue */
     }
         h1
         {
             font-size: 30px;
             padding: 25px 10px 0px 15px;
-            color: navy;
+            color: black;
         }
             nav span
             {
@@ -67,7 +63,7 @@ export default {
         {
             text-align: right;
             font-size: 10px;
-            color: #BBBBBB;
+            color: #999999;
             position: absolute;
             top: -35px;
             right: 15px;

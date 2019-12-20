@@ -10,12 +10,10 @@
 <template>
 
     <div id='home'>
-        <h1 id='title'>MYMUSIC™ Player</h1>
-        <h1 id='subtitle'>The Future of Music is Wide Open.</h1>
+        <h1 id='title'>Jeremy C. Southgate</h1>
+        <h1 id='subtitle'>Music Composition Portfolio</h1>
         <p id='description'>
-            <b>MyMusic</b> is <u>a site for all Artists</u> to upload their original music and have it played.
-            We believe the true future of music is DRM-Free. Thus, all music here is meant to be shared &
-            enjoyed by as many people as possible. We trust you will support the artists you like! ;)
+            <b>Boston, MA</b>
         </p>
         <router-link id='start' exact :to='{ name: "Discover" }'>Click Here to Start Playing!</router-link>
     </div>
@@ -36,9 +34,11 @@ export default {
 
 #home
 {
-    width: 800px;
+    width: 100%;
+    max-width: 800px;
     height: auto;
-    color: navy;
+    min-height: 500px;
+    color: black;
     margin: 0 auto;
 }
     #title
@@ -56,7 +56,7 @@ export default {
     {
         margin-top: 50px;
         font-size: 20px;
-        text-indent: 50px;
+        text-align: center;
         line-height: 2;
     }
     #start

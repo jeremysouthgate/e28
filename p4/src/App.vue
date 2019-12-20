@@ -12,10 +12,10 @@
     <div id='app'>
 
         <!-- Content -->
-        <router-view/>
+        <router-view id='page'/>
 
         <!-- Footer/Nav -->
-        <nav-bar/>
+        <nav-bar id='nav'/>
 
     </div>
 
@@ -38,26 +38,59 @@ export default {
 
 
 <style>
-
+@media screen and (max-height: 700px)
+{
+    #app
+    {
+        height: auto !important;
+    }
+    #nav
+    {
+        position: relative !important;
+        display: block !important;
+        float: left !important;
+        top: 0 !important;
+    }
+}
 /* App Container */
 #app
 {
+    background: #EAEAEA;
     width: 100%;
-    height: calc(100vh + 110px);
+    height: calc(100vh);
     font-family: proxima-nova;
     position: absolute;
     top: 0;
 }
+    #page
+    {
+        width: 100%;
+        height: auto;
+        min-height: 590px;
+        position: relative;
+        display: block;
+        float: left;
+    }
+    #nav
+    {
+        width: 100%;
+        height: 110px;
+        background: #EAEAEA;
+        position: absolute;
+        bottom: 0;
+    }
+
+
 
 /* Global Link Style */
 a
 {
-    color: navy;
+    color: black;
     text-decoration: none;
 }
     a:hover
     {
-        color: royalblue;
+        color: #999999;
         text-decoration: underline;
     }
 

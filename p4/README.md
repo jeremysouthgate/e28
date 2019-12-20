@@ -4,9 +4,11 @@
 
 
 ## Outline of features
-"MyMusic" is an app to play any given "collection" from a catalog of music files.
++ Repurposed the music player to fit a smaller portfolio of music.
++ Vuelidate contact form expects server-side implementation.
 
 ## Outside resources
 <https://www.w3schools.com/tags/ref_av_dom.asp>
 
 ## Notes for instructor
+Had a rough finals week with a cold, so there wasn't time for testing.

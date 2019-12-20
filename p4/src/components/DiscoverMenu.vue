@@ -9,13 +9,13 @@
 
 <template>
 
-    <div id='discover'>
+    <div id='discover_page'>
 
-        <h1>Tracklist</h1>
+        <h1 id='title'>Tracklist</h1>
 
         <div v-for="track in response" :key="track.id">
 
-            <router-link exact :to='{ path: "/play/" + track.title.toLowerCase() }'>{{ track.title }}</router-link>
+            <router-link class='tracks' exact :to='{ path: "/play/" + track.title.toLowerCase() }'>{{ track.title }}</router-link>
 
         </div>
 
@@ -53,17 +53,28 @@ export default {
 
 <style scoped>
 
-#discover
+#discover_page
 {
-    background: pink;
-    width: 100%;
+    width: calc(100% - 100px);
     height: 100%;
     position: relative;
+    padding: 50px;
 }
-    #discover > h1
+    #title
     {
+        font-size: 50px !important;
+        margin-top: 100px;
+        text-align: center;
         font-size: 50px;
-        color: red;
+    }
+    .tracks
+    {
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 40px;
+        line-height: 1.5;
     }
 
 </style>

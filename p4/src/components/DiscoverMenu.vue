@@ -15,7 +15,7 @@
 
         <div v-for="track in response" :key="track.id">
 
-            <router-link exact :to='{ path: "/play/" + track.title.toLowerCase() }'>{{ track.title }}</router-link>
+            <router-link exact :to='{ path: "/play/" + track.collection.title.toLowerCase() }'>{{ track.collection.title }}</router-link>
 
         </div>
 

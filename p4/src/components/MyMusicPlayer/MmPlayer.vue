@@ -27,11 +27,9 @@
                 <span>{{ time_elapsed }} / {{ duration }}</span>
             </div>
             <div id='buttons'>
-                <button @click='prev'>Prev</button>
                 <button @click='restart'>Restart</button>
                 <button @click='playpause'>{{ playpause_button }}</button>
                 <button @click='mute'>{{ mute_button }}</button>
-                <button @click='next'>Next</button>
             </div>
         </div>
 
@@ -99,10 +97,6 @@ export default {
 
         },
 
-        prev: function() {
-
-        },
-
         restart: function() {
             this.media_obj.currentTime = 0;
         },
@@ -134,10 +128,6 @@ export default {
                 this.media_obj.muted = false;
                 this.mute_button = "Mute";
             }
-        },
-
-        next: function() {
-
         },
 
         seek: function(e) {
@@ -265,7 +255,7 @@ export default {
                 border-radius: 25px;
                 border: 2px solid rgba(66, 66, 66, .75);
                 color: white;
-                width: calc(20% - 4px);
+                width: calc(33.3% - 4px);
                 height: calc(100% - 4px);
                 cursor: pointer;
                 display: inline-block;
@@ -273,6 +263,7 @@ export default {
                 float: left;
                 z-index: 100;
                 margin: 2px;
+                font-size: 15px;
             }
 
 </style>

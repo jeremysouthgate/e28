@@ -38,7 +38,7 @@ export default {
 
 
 <style>
-@media screen and (max-height: 500px)
+@media screen and (max-height: 900px)
 {
     #app
     {

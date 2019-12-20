@@ -1,21 +1,19 @@
 {
     "music": [
-        {
-            "collection": {
-                "title": "Creativity",
-                "artist": "Jeremy Southgate",
-                "type": "single"
-            },
-            "collection": {
-                "title": "Summer",
-                "artist": "Jeremy Southgate",
-                "type": "single"
-            },
-            "collection": {
-                "title": "Freedom",
-                "artist": "Jeremy Southgate",
-                "type": "single"
-            }
+        "collection": {
+            "title": "Creativity",
+            "artist": "Jeremy Southgate",
+            "type": "single"
+        },
+        "collection": {
+            "title": "Summer",
+            "artist": "Jeremy Southgate",
+            "type": "single"
+        },
+        "collection": {
+            "title": "Freedom",
+            "artist": "Jeremy Southgate",
+            "type": "single"
         }
     ]
 }

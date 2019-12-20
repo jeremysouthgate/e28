@@ -38,7 +38,7 @@ export default {
 
 
 <style>
-@media screen and (max-height: 700px)
+@media screen and (max-height: 500px)
 {
     #app
     {
@@ -66,7 +66,7 @@ export default {
     {
         width: 100%;
         height: auto;
-        min-height: 590px;
+        min-height: 500px;
         position: relative;
         display: block;
         float: left;

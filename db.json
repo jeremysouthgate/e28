@@ -1,11 +1,14 @@
 {
-    {
-        "title": "Creativity"
-    },
-    {
-        "title": "Summer"
-    },
-    {
-        "title": "Freedom"
-    }
+    "music": [
+        {
+            "id": 1,
+            "collection": {
+                "title": "Lydia",
+                "artist": "Jeremy Southgate",
+                "type": "single",
+                "artwork": "lydia.png",
+                "audio": "lydia.mp3"
+            }
+        }
+    ]
 }

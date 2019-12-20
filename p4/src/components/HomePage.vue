@@ -9,6 +9,7 @@
 
 <template>
 
+    <!-- Masthead -->
     <div id='home'>
         <h1 id='title'>Jeremy C. Southgate</h1>
         <h2 id='subtitle'>Music Composition Portfolio</h2>

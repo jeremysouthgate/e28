@@ -1,13 +1,13 @@
 // https://docs.cypress.io/api/introduction/api.html
 
-describe('My First Test', () => {
+describe('Contact', () => {
 
-    it('Visits home', () => {
+    it('Visits Contact', () => {
 
-        cy.visit('/')
+        cy.visit('/contact')
 
-        cy.contains('h1', 'Welcome to Your Vue.js App')
-        
+        cy.contains('h1', 'Contact')
+
     })
 
 })

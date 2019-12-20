@@ -2,12 +2,16 @@
 
 describe('My First Test', () => {
 
-    it('Visits home', () => {
+    it('Visits discover', () => {
 
-        cy.visit('/')
+        cy.visit('/discover')
 
-        cy.contains('h1', 'Welcome to Your Vue.js App')
-        
+        cy.contains('a', 'Creativity')
+
+        cy.contains('a', 'Summer')
+
+        cy.contains('a', 'Freedom')
+
     })
 
 })

@@ -8,8 +8,13 @@ describe('My First Test', () => {
 
         cy.contains('h1', 'Jeremy C. Southgate')
 
-        cy.contains('h2', 'Music Composition Portfolio')
+        cy.contains('a', 'Home')
 
+        cy.contains('a', 'Discover')
+
+        cy.contains('a', 'Play')
+
+        cy.contains('a', 'Contact')
     })
 
 })

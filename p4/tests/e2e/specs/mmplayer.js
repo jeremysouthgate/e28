@@ -1,13 +1,17 @@
 // https://docs.cypress.io/api/introduction/api.html
 
-describe('My First Test', () => {
+describe('MmPlayer', () => {
 
-    it('Visits home', () => {
+    it('Visits play', () => {
 
-        cy.visit('/')
+        cy.visit('/play')
 
-        cy.contains('h1', 'Welcome to Your Vue.js App')
-        
+        cy.contains('audio')
+
+        cy.contains('img')
+
+        cy.contains('button', 'play')
+
     })
 
 })

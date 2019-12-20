@@ -81,6 +81,7 @@ export default {
     },
     methods: {
 
+        // Submit form after validation
         do_submit: function() {
             if (this.$v.$dirty && !this.$v.$anyError)
                 document.querySelector('form').submit();
